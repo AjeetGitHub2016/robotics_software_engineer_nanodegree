@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://classroom.udacity.com/
+HostUrl=https://s3-us-west-1.amazonaws.com/udacity-robotics/my_robot.gazebo
