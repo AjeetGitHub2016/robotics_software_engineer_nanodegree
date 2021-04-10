@@ -17,13 +17,17 @@ Clone project and initialize catkin workspace
 * $ cd src && catkin_init_workspace
 * $ cd ..
 * $ catkin_make
+
 Launch the world and robot
 * $ source devel/setup.bash
 * $ roslaunch my_robot world.launch
+
 Open another terminal
 * $ source devel/setup.bash
 * $ roslaunch my_robot amcl.launch
+
 Open another terminal, and run the teleop node.
 * $ source devel/setup.bash
 * $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-* Click on this terminal, type keyboard to navigate the robot around. The localization algorithm will update particles as the robot pose is updated.
+
+Click on this terminal, type keyboard to navigate the robot around.
