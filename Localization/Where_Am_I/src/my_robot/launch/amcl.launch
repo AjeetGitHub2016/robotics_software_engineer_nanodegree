@@ -11,16 +11,16 @@
     <!-- Tune AMCL parameters -->
     
     <!-- initial poses-->
-    <param name="initial_pose_x" value="0"/>
-    <param name="initial_pose_y" value="0"/>
-    <param name="initial_pose_a" value="pi/2.0"/>
+    <param name="initial_pose_x" value="0.075"/>
+    <param name="initial_pose_y" value="-0.175"/>
+    <param name="initial_pose_a" value="-1.57079632679"/>
     <!-- transform tolerance -->
     <param name="transform_tolerance" value="0.2"/>
     <!-- Range of number of particle -->
     <param name="min_particles" value="50"/>
     <param name="max_particles" value="5000"/>
     <!-- Update scan data parameters (angular and displacement) -->
-    <param name="update_min_a" value="pi/4.0"/>
+    <param name="update_min_a" value="0.52359877559"/>
     <param name="update_min_d" value="0.1"/>
     <!-- Laser scan range -->
     <param name="laser_min_range" value="0.1"/>
@@ -28,7 +28,7 @@
     <param name="laser_max_beams" value="30"/>
     <!-- Mixture weight -->
     <param name="laser_z_hit" value="0.95"/>
-    <param name="laser_z_rand" value="0.05"/>
+    <param name="laser_z_rand" value="0.5"/>
     <!-- Odometery model parameters -->
     <param name="odom_frame_id" value="odom"/>
     <param name="odom_model_type" value="diff-corrected"/>
